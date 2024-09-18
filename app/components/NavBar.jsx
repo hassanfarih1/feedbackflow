@@ -8,7 +8,7 @@ export default function NavBar({ scrollToDealSection }) {
     <div className='flex items-center justify-between mx-4 md:mx-32 py-4'>
       <Link href='/'>
         <div className='flex flex-row items-center gap-2 md:gap-4 text-xl md:text-2xl'>
-          <Image src='/feedbackFlowLogo.png' width={80} height={90} alt='FeedbackFlow Logo' />
+          <img src='/feedbackFlowLogo.png' width={80} alt='FeedbackFlow Logo' />
           <p className='text-sm md:text-2xl'>FeedbackFlow</p>
         </div>
       </Link>
