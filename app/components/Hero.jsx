@@ -34,16 +34,16 @@ export default function Hero() {
 
       if (error) {
         if (error.code === '23505') {
-          setError("This email is already with us."); // Use double quotes or escaped single quotes
+          setError('This email is already with us.'); // Fixed single quote issue
         } else {
-          setError("An error occurred. Please try again."); // Use double quotes or escaped single quotes
+          setError('An error occurred. Please try again.'); // Fixed single quote issue
         }
       } else {
-        setSuccess("Welcome with us!"); // Use double quotes or escaped single quotes
+        setSuccess('Welcome with us!'); // Fixed single quote issue
         setEmail(''); 
       }
     } catch (err) {
-      setError("An unexpected error occurred. Please try again."); // Use double quotes or escaped single quotes
+      setError('An unexpected error occurred. Please try again.'); // Fixed single quote issue
     } finally {
       setLoading(false);
     }
@@ -56,7 +56,7 @@ export default function Hero() {
           Collect Meaningful Feedback from Players to Improve Your Crypto Game
         </h1>
         <p className="text-base text-gray-600 md:text-lg pt-1 md:pt-8">
-          Understand what your players really think and make data-driven decisions to optimize your crypto game's experience.
+          Understand what your players really think and make data-driven decisions to optimize your crypto game&apos;s experience. {/* Escaped single quote */}
         </p>
         
         <div className="flex flex-col md:flex-row items-start md:items-center gap-4 mt-4 md:mt-9">
