@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import React from 'react';
-import bgfeedback from '../assets/presalefeedbackflow.jpeg';
+
 
 export default function Features() {
   return (
@@ -53,7 +53,7 @@ export default function Features() {
 
     
       <div className="flex justify-center pt-16">
-        <Image src={bgfeedback} alt="Feedback Flow" className="w-full max-w-5xl rounded-xl" />
+        <img src='/presalefeedbackflow.jpeg' alt="Feedback Flow" className="w-full max-w-5xl rounded-xl" />
       </div> 
     </div>
   );

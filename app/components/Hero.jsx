@@ -2,8 +2,8 @@
 
 import React, { useState, useEffect } from 'react';
 import Lottie from 'lottie-react';
-import animation from '@/app/assets/Animation1.json';
-import { supabase } from '@/lib/supabaseClient';  
+import animation from '../../app/assets/Animation1.json';
+import { supabase } from '../../lib/supabaseClient';  
 
 export default function Hero() {
   const [email, setEmail] = useState('');
