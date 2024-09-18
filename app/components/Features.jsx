@@ -53,7 +53,7 @@ export default function Features() {
 
     
       <div className="flex justify-center pt-16">
-        <img src='/presalefeedbackflow.jpeg' alt="Feedback Flow" className="w-full max-w-5xl rounded-xl" />
+        <Image src='/presalefeedbackflow.jpeg' width={3000} height={3000} alt="Feedback Flow" className="w-full max-w-5xl rounded-xl" />
       </div> 
     </div>
   );

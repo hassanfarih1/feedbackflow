@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import React, { useState, useEffect } from 'react';
 import Lottie from 'lottie-react';
@@ -17,7 +17,6 @@ export default function Hero() {
       setIsAnimationLoaded(true);
     };
 
-    
     const timer = setTimeout(loadAnimation, 300);
 
     return () => clearTimeout(timer);
@@ -34,18 +33,17 @@ export default function Hero() {
         .insert([{ email }]);
 
       if (error) {
-        
         if (error.code === '23505') {
-          setError('This email is already with us.');
+          setError("This email is already with us."); // Use double quotes or escaped single quotes
         } else {
-          setError('An error occurred. Please try again.');
+          setError("An error occurred. Please try again."); // Use double quotes or escaped single quotes
         }
       } else {
-        setSuccess('Welcome with us!');
+        setSuccess("Welcome with us!"); // Use double quotes or escaped single quotes
         setEmail(''); 
       }
     } catch (err) {
-      setError('An unexpected error occurred. Please try again.');
+      setError("An unexpected error occurred. Please try again."); // Use double quotes or escaped single quotes
     } finally {
       setLoading(false);
     }
