@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import React from 'react';
-import bgfeedback from '@/app/assets/presalefeedbackflow.jpeg';
+import bgfeedback from '../assets/presalefeedbackflow.jpeg';
 
 export default function Features() {
   return (
