@@ -11,7 +11,7 @@ const nerko = Dela_Gothic_One({
 
 export const metadata = {
   title: "FeedbackFlow",
-  description: "FeedbackFlow helps crypto enthusiasts collect, analyze, and manage feedback from their players to improve experiences and build stronger communities.",
+  description: "FeedbackFlow empowers businesses to gather, analyze, and manage valuable feedback from their users, helping to enhance services and foster stronger communities.",
 };
 
 export default function RootLayout({ children }) {
