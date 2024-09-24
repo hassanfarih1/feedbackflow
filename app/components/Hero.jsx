@@ -56,7 +56,7 @@ export default function Hero() {
         Gather Meaningful Feedback from Your Startup Users to Enhance Your Services
         </h1>
         <p className="text-base text-gray-600 md:text-lg pt-1 md:pt-8">
-          Understand What Your Startup Users Really Think and Make Data-Driven Decisions to Optimize Your Offerings.
+          Understand What Your Startup Users Really Think and Make Data-Driven Decisions to Optimize Your Offerings
         </p>
         
         <div className="flex flex-col md:flex-row items-start md:items-center gap-4 mt-4 md:mt-9">
