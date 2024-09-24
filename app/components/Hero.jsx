@@ -53,10 +53,10 @@ export default function Hero() {
     <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-between mx-4 md:mx-32 pt-16 md:pt-20 gap-8">
       <div className="space-y-4 md:space-y-6">
         <h1 className="text-3xl md:text-5xl font-bold">
-          Gather Meaningful Feedback from Your Crypto Community to Enhance Your Services
+        Gather Meaningful Feedback from Your Startup Users to Enhance Your Services
         </h1>
         <p className="text-base text-gray-600 md:text-lg pt-1 md:pt-8">
-        Understand What Your Crypto Users Really Think and Make Data-Driven Decisions to Optimize Your Offerings 
+          Understand What Your Startup Users Really Think and Make Data-Driven Decisions to Optimize Your Offerings
         </p>
         
         <div className="flex flex-col md:flex-row items-start md:items-center gap-4 mt-4 md:mt-9">
@@ -87,9 +87,10 @@ export default function Hero() {
           </div>
         )}
         {isAnimationLoaded && (
-          <Lottie animationData={animation} loop={true} className="w-full md:w-96" />
+          <Lottie animationData={animation} loop={true} className="w-full md:w-[900px]" />
         )}
       </div>
     </div>
   );
 }
+
